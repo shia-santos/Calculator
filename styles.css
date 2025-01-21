@@ -45,7 +45,7 @@ body {
   background-color: #fafbfd;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
     rgb(209, 213, 219) 0px 0px 0px 1px inset;
-  gap: 10px;
+  letter-spacing: 4px;
 }
 
 /* ***************************** DESIGN BOTÕES */
@@ -96,7 +96,7 @@ body {
 }
 
 #color-btn1 {
-  color: #ace3ff;
+  color: #fafbfd;
   background: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.15) 0%,
