@@ -14,11 +14,15 @@
   </head>
 
   <body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+
     <div id="maincontainer" class="container">
       <input id="display" readonly />
 
       <div class="botoes">
-        <button class="btn" onclick="clearDisplay()"><span>CE</span></button>
+        <button class="btn" onclick="clearLastEntry()"><span>CE</span></button>
         <button class="btn" onclick="clearDisplay()">C</button>
         <button class="btn" onclick="appendToDisplay('%')">%</button>
         <button class="color-btn" onclick="appendToDisplay(' / ')">÷</button>

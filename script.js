@@ -8,6 +8,10 @@ function clearDisplay() {
   display.value = "";
 }
 
+function clearLastEntry() {
+  display.value = display.value.slice(0, -1); // Remove o último caractere
+}
+
 function calculate() {
   try {
     display.value = eval(display.value);
@@ -15,6 +19,3 @@ function calculate() {
     display.value = "Error";
   }
 }
-
-const body = document.querySelector("body");
-document.body.style.backgroundColor = "Gainsboro";
