@@ -11,7 +11,7 @@ This project was developed with VSCode as the IDE and Bootstrap and CSS for styl
 
 ## 🚀 Live Demo
 
-https://shia-santos.github.io/Flora_Website/
+https://shia-santos.github.io/Calculator/
 
 ---
 
